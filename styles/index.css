@@ -1,0 +1,178 @@
+/*
+Desarrollado por:
+-Medina Osornio Saul
+*/
+/*
+Elementos basicos del documento 
+que afectan a toda la pagina principal
+*/
+body {
+  font-family: sans-serif;
+  background-color: #000000;
+}
+#green-text {
+  color: greenyellow;
+}
+#pink-text {
+  color: pink;
+}
+/*
+En esta parte se encuentran los estilos del primer contenedor
+los estilos a los que afecta son:
+-Contenedor principal
+-Navegador
+-Lema de la empresa
+*/
+
+/*Afecta a todos los elementos del contenedor principal 1*/
+#container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+  max-width: 100%;
+  max-height: 100vh;
+  align-items: center;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 60s ease infinite;
+  background-position: 10%;
+  margin: 0%;
+  border-radius: 10px;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 25%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/*Afecta todas la funcionalidades del navegador*/
+#cont-1_nav {
+  background-color: rgba(240, 248, 255, 0.384);
+  width: 100vw;
+  height: 7vh;
+  margin: 1% 1% 0% 1%;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+}
+#cont-1_nav a {
+  text-decoration: none;
+  color: rgb(68, 68, 68);
+  font-size: 30px;
+  padding: 1%;
+  text-align: right;
+}
+#cont-1_nav_title {
+  margin-right: 55%;
+  text-align: left;
+}
+#cont-1_nav img {
+  height: 25px;
+}
+/*Afecta todas la funcionalidades del cuadro de texto*/
+#cont-1_text {
+  width: 80%;
+  height: 90%;
+  color: #fff;
+  font-size: 30px;
+  text-align: left;
+}
+#cont-1_text p {
+  margin: 0%;
+  padding: 10%;
+}
+/*
+En esta parte se encuentran los estilos de la descripcion de los deportes con bicicleta
+los estilos a los que afecta son:
+-Encabezado
+-Descripcion de los deportes
+*/
+/*Afecta a todos los elementos del contenedor que describe los deportes en el ciclismo*/
+#container-2 {
+  height: auto;
+  margin: 1% 0% 0% 0%;
+  color: #e4e4e4;
+}
+/*Afecta el encabezado del apartado*/
+#cont-2_enc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+#cont-2_enc hr {
+  border: 1px solid #3c67ff;
+  border-radius: 20px;
+  background-color: #3c67ff;
+  width: 40%;
+  height: 10px;
+}
+/*Afecta a los elementos y al contenido de el descriptor del contenedor 2, los deportes asi como imagenes*/
+#cont-2_descact {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 0% 10%;
+}
+.cont-2_descact_elem {
+  background-color: #313131fb;
+  margin: 15%;
+  border-radius: 20px;
+  padding: 5%;
+  text-align: center;
+}
+.cont-2_descact_elem p {
+  text-align: justify;
+}
+.cont-2_descact_elem:hover {
+  background-color: #494949;
+  box-shadow: 0px 0px 20px 0px #6e6e6e;
+}
+.cont-2_descact_elem img {
+  width: 99%;
+  border-radius: 10px;
+}
+/*
+En esta parte se encuentran los estilos de los contenedores 3, 4 ,5
+los estilos a los que afecta son:
+-Contenedor de productos
+*/
+.container {
+  margin: 1%;
+  color: #e4e4e4;
+  height: 100vh;
+}
+.cont-slots {
+  height: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.cont-slots div {
+  background-color: #f0f8ff1f;
+  border-radius: 20px;
+  margin: 2%;
+  display: flex;
+}
+.cont-slots-pr div {
+  height: auto;
+}
+.cont-slots-pr_e1 {
+  width: 70%;
+}
+.cont-slots-pr_e1 img {
+  margin: auto;
+  width: 95%;
+  height: 95%;
+  border-radius: 20px;
+}
+.cont-slots-pr_e2 {
+  width: 30%;
+}
