@@ -145,15 +145,18 @@ los estilos a los que afecta son:
 -Contenedor de productos
 */
 .container {
-  margin: 1%;
+  margin: 50px 0% 0% 0%;
   color: #e4e4e4;
-  height: 100vh;
+  height: auto;
+  width: 99vw;
+  background-position: 10%;
 }
+
 .cont-slots {
   height: 90%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 .cont-slots div {
   background-color: #f0f8ff1f;
@@ -175,4 +178,29 @@ los estilos a los que afecta son:
 }
 .cont-slots-pr_e2 {
   width: 30%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.cont-slots-pr_e2 div {
+  width: 100%;
+  border-radius: 0%;
+  text-align: right;
+  display: flex;
+  align-content: space-between;
+  background-color: #6e6e6e00;
+}
+.cont-slots-pr_e2 div p {
+}
+.cont-slots-pr_e2 div button {
+  border-radius: 50%;
+  width: 50%;
+  border: 0px;
+  margin-left: 6%;
+}
+#button-slots-pr-1 {
+  background-color: #31c60c;
+}
+#button-slots-pr-2 {
+  background-color: #c60c0c;
 }
