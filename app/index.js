@@ -25,8 +25,8 @@ function addInformation(nombre, tipo, rango, marca, color, tamano, precio, descr
         "<div><p>Descripcion </p><p>" + descripcion + "</p></div></div></div>";
 }
 // Agreaga la informacion a las variables
-function start() {
-    fetch('bicicletas.json').then(response => response.json()).then(data => {
+function start(pakage) {
+    fetch(pakage).then(response => response.json()).then(data => {
         for (let i = 0; i < data.length; i++) {
             //Obtenemos la informacion de los productos
             getInformationProducts();
@@ -51,5 +51,7 @@ function start() {
 //Starts the funcionalities
 document.addEventListener("DOMContentLoaded", function (event) {
     console.log("El HTML ha cargado completamente.");
-    start();
+    start('MannUserBK.json');
+    start('FastUserBK.json');
+    start('RebelUserBK.json');
 });

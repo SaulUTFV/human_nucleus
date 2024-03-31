@@ -1,0 +1,74 @@
+[
+  {
+    "id_bicicleta": "MUB5612",
+    "nombre": "Trek Trailblazer",
+    "tipo": "Montaña",
+    "rango": "Adulto",
+    "marca": "DOS",
+    "color": "Negro",
+    "tamano": 26,
+    "precio": 1200,
+    "descripcion": "Una bicicleta de uso rudo, construido en aleación de aluminio y cadena de máximo agarre.",
+    "url_img": "https://th.bing.com/th/id/OIG1.rT7es7ycrFimFD5LNKel?pid=ImgGn"
+  },
+  {
+    "id_bicicleta": "MUC5347",
+    "nombre": "Haibike Volt",
+    "tipo": "Montaña",
+    "rango": "Adulto",
+    "marca": "Haibike",
+    "color": "Negro",
+    "tamano": 27,
+    "precio": 2800,
+    "descripcion": "Potente motor y batería de larga duración. Asistencia al pedaleo para conquistar cualquier terreno.",
+    "url_img": "https://www.todomountainbike.net/images/articles/2018/haibike-flyon-xduro-alltrail-2019.jpg"
+  },
+  {
+    "id_bicicleta": "MUB5612",
+    "nombre": "Santa Cruz",
+    "tipo": "Montaña",
+    "rango": "Adulto",
+    "marca": "Santa Cruz",
+    "color": "Gray",
+    "tamano": 29,
+    "precio": 3500,
+    "descripcion": "Ligera, rígida y duradera. Control preciso en cada curva y descenso.",
+    "url_img": "https://es.bikeles.com/wp-content/uploads/2022/09/Santa-Cruz-V10.jpg?ezimgfmt=ng:webp/ngcb1"
+  },
+  {
+    "id_bicicleta": "MUB5612",
+    "nombre": "Specialized Striker",
+    "tipo": "Montaña",
+    "rango": "Adulto",
+    "marca": "Specialized",
+    "color": "Red",
+    "tamano": 27,
+    "precio": 1200,
+    "descripcion": "Versátil y ágil. Cuadro de aluminio resistente, perfecta para explorar nuevos terrenos.",
+    "url_img": "https://assets.specialized.com/i/specialized/BRD-9074__Lower_2880x1620_Epic_Bike_1?$hybris-pdp-photo-carousel$&fmt=auto"
+  },
+  {
+    "id_bicicleta": "MUB5612",
+    "nombre": "Montague Explorer",
+    "tipo": "Montaña",
+    "rango": "Adulto",
+    "marca": "Montague",
+    "color": "Black",
+    "tamano": 26,
+    "precio": 900,
+    "descripcion": "Portátil y resistente. Ideal para aventuras urbanas y en la naturaleza.",
+    "url_img": "https://wwwhatsnew.com/wp-content/uploads/2019/08/SEMAdventure.jpg"
+  },
+  {
+    "id_bicicleta": "MUB5612",
+    "nombre": "Rocky Mountain ",
+    "tipo": "Montaña",
+    "rango": "Adulto",
+    "marca": "Diamondback",
+    "color": "Black & White",
+    "tamano": 26,
+    "precio": 3600,
+    "descripcion": "Perfecta para iniciarse en el ciclismo de montaña.",
+    "url_img": "https://www.lavozdemichoacan.com.mx/wp-content/uploads/2021/08/bicicleta.jpg"
+  }
+]
