@@ -9,15 +9,18 @@
 </head>
 
 <body>
-  <div class="container">
-    <h2>Formulario de Registro</h2>
-    <form method="POST">
+  <!--Navegador principal de la pagina-->
+  <nav id="cont-1_nav">
+    <a href="/index.html" id="cont-1_nav_title"><b>Human Nucleus</b>
+      <img src="https://cdn-icons-png.flaticon.com/128/9195/9195920.png" alt="" /></a><a
+      href="/index.html"><b>productos</b></a><a href="compras/compras.html"><b>compras</b></a><a
+      href="index.html"><b>cuenta</b></a>
+  </nav>
 
-      <div class="form-group">
-        <label for="foto">Foto de Perfil:</label>
-        <input type="file" id="foto" name="foto" accept="image/*" onchange="previewImage()" />
-        <img id="preview" src="#" alt="imagen" />
-      </div>
+  <!--Contenedor de el formulario de registro -->
+  <div class="container">
+    <h2>Registrate o inicia seción</h2>
+    <form method="POST">
 
       <div class="form-group">
         <label for="nombre">Nombre:</label>
@@ -51,9 +54,6 @@
 
   <script src="app.js"></script>
 
-  <?php
-  include("registrar.php");
-  ?>
 </body>
 
 </html>

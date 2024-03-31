@@ -1,10 +1,25 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    margin: 0;
+    margin: 10px;
     padding: 0;
-}
 
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 80s ease infinite;
+    background-position: 20%;
+}
+@keyframes gradient {
+    0% {
+      background-position: 0% 25%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 .container {
     max-width: 500px;
     margin: 50px auto;
@@ -62,13 +77,42 @@ button:hover {
 button:active {
     background-color: #004080;
 }
+/*Afecta todas la funcionalidades del navegador*/
+#cont-1_nav {
+    width: 98%;
+    height: 7%;
+    margin: 1%;
+  
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  
+    background-color: #f0f8ff62;
+    border-radius: 3px;
+  }
+  #cont-1_nav a {
+    text-decoration: none;
+    color: #444444;
+    font-size: 30px;
+    padding: 1%;
+  }
+  #cont-1_nav_title {
+  }
+  #cont-1_nav img {
+    height: 25px;
+  }
 
 /* Estilos adicionales para hacer el formulario más atractivo */
 
 .container {
-    background-color: #f9f9f9;
+    background-color: #f0f8ff62;
     padding: 40px;
     border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
 
 h2 {
@@ -82,8 +126,12 @@ h2 {
 
 label {
     font-weight: bold;
+    text-align: left;
 }
-
+input{
+    width: 100%;
+    height: auto;
+}
 input,
 button {
     width: 100%;

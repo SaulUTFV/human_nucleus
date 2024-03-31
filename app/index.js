@@ -5,8 +5,6 @@ let sessonActive = false
 function getInformationProducts() {
 };
 
-
-
 // Da formato a la variable
 function addInformation(nombre, tipo, rango, marca, color, tamano, precio, descripcion, url_img) {
 
