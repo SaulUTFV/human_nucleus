@@ -1,0 +1,74 @@
+[
+  {
+    "id_bicicleta": "FUB5612",
+    "nombre": "SpeedMaster 3000",
+    "tipo": "Ciclismo de Pista",
+    "rango": "Adulto",
+    "marca": "Velocity Pro",
+    "color": "Black & Red",
+    "tamano": 26,
+    "precio": 1200,
+    "descripcion": " La SpeedMaster 3000 es una bicicleta de pista diseñada para competiciones de alta velocidad. Su cuadro de aluminio ligero y sus componentes de alta gama la hacen ideal para ciclistas profesionales.",
+    "url_img": ""
+  },
+  {
+    "id_bicicleta": "FUF7834",
+    "nombre": "AeroTrack 500",
+    "tipo": "Ciclismo de Pista",
+    "rango": "Jóvenes y Adultos",
+    "marca": "AeroCycles",
+    "color": "Azul y Blanco",
+    "tamano": "700c",
+    "precio": 800,
+    "descripcion": "La AeroTrack 500 es una bicicleta aerodinámica diseñada para brindar velocidad y agilidad en la pista. Su diseño elegante y su maniobrabilidad la hacen perfecta para entrenamientos intensivos y carreras.",
+    "url_img": ""
+  },
+  {
+    "id_bicicleta": "FUK4095",
+    "nombre": "Sprinter X",
+    "tipo": "Ciclismo de Pista",
+    "rango": "Adultos",
+    "marca": "SprintCycles",
+    "color": "Amarillo y Negro",
+    "tamano": "700c",
+    "precio": 1500,
+    "descripcion": "La Sprinter X es una bicicleta de pista de alto rendimiento diseñada para sprints y competiciones de corta distancia. Su cuadro de fibra de carbono y sus componentes ultraligeros la convierten en la elección de muchos ciclistas profesionales.",
+    "url_img": ""
+  },
+  {
+    "id_bicicleta": "FUM3258",
+    "nombre": "TrackStar 2000",
+    "tipo": "Ciclismo de Pista",
+    "rango": "Adultos",
+    "marca": "TrackMaster",
+    "color": "Blanco y Rojo",
+    "tamano": "700c",
+    "precio": 1100,
+    "descripcion": "La TrackStar 2000 es una bicicleta de pista de alta calidad, ideal para entrenamientos intensivos y competiciones de velocidad. Su cuadro de acero ligero y su transmisión de alta precisión la convierten en una opción confiable para ciclistas exigentes.",
+    "url_img": ""
+  },
+  {
+    "id_bicicleta": "FUO9876",
+    "nombre": "Velocity Vortex 800",
+    "tipo": "Ciclismo de Pista",
+    "rango": "Jóvenes y Adultos",
+    "marca": "Velocity Cycles",
+    "color": "Negro y Amarillo",
+    "tamano": "700c",
+    "precio": 900,
+    "descripcion": "La Velocity Vortex 800 es una bicicleta de pista diseñada para ofrecer velocidad y agilidad en las curvas. Su geometría aerodinámica y su manillar ajustable la hacen perfecta para ciclistas que buscan mejorar sus tiempos en la pista.",
+    "url_img": ""
+  },
+  {
+    "id_bicicleta": "FUU2345",
+    "nombre": "AeroTrack 1000",
+    "tipo": "Ciclismo de Pista",
+    "rango": "Adultos",
+    "marca": "AeroCycles",
+    "color": "Negro y Verde",
+    "tamano": "700c",
+    "precio": 1300,
+    "descripcion": "La AeroTrack 1000 es una bicicleta de pista de alto rendimiento diseñada para ciclistas profesionales. Su cuadro de fibra de carbono y sus componentes ultraligeros garantizan una experiencia de conducción rápida y precisa en la pista.",
+    "url_img": ""
+  }
+]
