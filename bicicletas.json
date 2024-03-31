@@ -214,5 +214,17 @@
     "precio": 1200,
     "descripcion": "Una bicicleta de uso rudo, construido en aleación de aluminio y cadena de máximo agarre.",
     "url_img": "https://es.bikeles.com/wp-content/uploads/2022/09/Santa-Cruz-V10.jpg?ezimgfmt=ng:webp/ngcb1"
+  },
+  {
+    "id_bicicleta": "MUB5612",
+    "nombre": "Trek Trailblazer",
+    "tipo": "Montaña",
+    "rango": "Adulto",
+    "marca": "DOS",
+    "color": "Negro",
+    "tamano": 26,
+    "precio": 1200,
+    "descripcion": "Una bicicleta de uso rudo, construido en aleación de aluminio y cadena de máximo agarre.",
+    "url_img": "https://th.bing.com/th/id/OIG1.rT7es7ycrFimFD5LNKel?pid=ImgGn"
   }
 ]
