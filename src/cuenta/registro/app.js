@@ -1,7 +1,7 @@
 function previewImage() {
     var preview = document.getElementById('preview');
     var file = document.getElementById('foto').files[0];
-    var reader = new FileReader();
+    var reader = new FileReader()
 
     reader.onloadend = function () {
         preview.src = reader.result;
