@@ -1,5 +1,5 @@
 //Importaciones de archivos
-import Usuario from './usuario.js'
+//import Usuario from './usuario.js'
 
 //Starts the funcionalities
 document.addEventListener("DOMContentLoaded", function (event) {
