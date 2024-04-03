@@ -1,0 +1,248 @@
+/*
+Desarrollado por:
+-Medina Osornio Saul
+*/
+/*
+Elementos basicos del documento 
+que afectan a toda la pagina principal
+*/
+body {
+  font-family: sans-serif;
+  background-color: #000000;
+}
+
+#green-text {
+  color: greenyellow;
+}
+
+#pink-text {
+  color: pink;
+}
+
+#container-1 {
+  height: 100vh;
+  margin: 10px;
+  width: 99%;
+
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: start;
+  flex-direction: column;
+
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 80s ease infinite;
+  background-position: 20%;
+  border-radius: 10px;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 25%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/*Afecta todas la funcionalidades del navegador*/
+#cont-1_nav {
+  background-color: #f0f8ff62;
+  width: 98%;
+  height: 7vh;
+  margin: 1% 1% 0% 1%;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+}
+
+#cont-1_nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  padding: 1%;
+  text-align: right;
+}
+
+#cont-1_nav_title {
+  margin-right: 55%;
+  text-align: left;
+}
+
+#cont-1_nav img {
+  height: 25px;
+}
+
+/*Afecta el encabezado del apartado*/
+#cont-enc {
+  width: 100%;
+  height: 1%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  font-size: 20px;
+}
+#cont-enc hr {
+  border: 1px solid #3c67ff;
+  border-radius: 20px;
+  background-color: #3c67ff;
+  width: 30%;
+  height: 7px;
+}
+/**/
+.container {
+  width: 98%;
+  height: auto;
+
+  margin: 10px;
+  height: auto;
+
+  color: #ffffff;
+}
+
+.cont-slots {
+  height: 90%;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+}
+
+.cont-slots div {
+  border: 5px solid #242424;
+  border-radius: 20px;
+  margin: 2%;
+  display: flex;
+}
+/* Animación de cambio de color del borde */
+.cont-slots div:hover {
+  animation: changeBorderColor 10s forwards; 
+}
+@keyframes changeBorderColor {
+  0% {
+    border-color: rgba(255, 0, 0, 0.192); /* Color inicial */
+  }
+  25% {
+    border-color: rgba(0, 0, 255, 0.349); /* Color 1 */
+  }
+  50% {
+    border-color: rgba(0, 128, 0, 0.301); /* Color 2 */
+  }
+  75% {
+    border-color: rgba(61, 44, 138, 0.247); /* Color 3 */
+  }
+  100% {
+    border-color: rgba(255, 0, 0, 0.24); /* Volver al color inicial */
+  }
+}
+.cont-slots-pr div {
+  height: auto;
+}
+/*Container description img*/
+.cont-slots-pr_e1 {
+  width: 70%;
+}
+.cont-slots-pr_e1 img {
+  margin: auto;
+  min-width: 100px;
+  width: 95%;
+  max-width: 600px;
+  min-height: 100px;
+  height: 95%;
+  max-height: 500px;
+  border-radius: 20px;
+}
+/*Container description product*/
+.cont-slots-pr_e2 {
+  width: 30%;
+  padding: 0%;
+
+  display: flex;
+  flex-direction: column;
+}
+.cont-slots-pr_e2 div {
+  width: 98%;
+  height: auto;
+  border-radius: 0%;
+  margin: 1%;
+  padding: 0%;
+
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+
+  border: 0px;
+  text-align: justify;
+}
+.cont-slots-pr_e2 div p {
+  font-size: 15px;
+  padding: 1%;
+  margin: 0%;
+}
+#cont_button_compra {
+  width: 98%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+button {
+  width: 50%;
+  height: auto;
+
+  margin: 1% 10%;
+
+  font-size: 30px;
+  border: 0px;
+  border-radius: 20px;
+}
+#button-slots-pr-1 {
+  background-color: greenyellow;
+}
+#button-slots-pr-1:hover {
+  box-shadow: 0px 0px 15px 1px greenyellow;
+}
+#button-slots-pr-2 {
+  background-color: red;
+}
+#button-slots-pr-2:hover {
+  box-shadow: 0px 0px 15px 1px red;
+}
+/*Aqui contiene los estilos de el pie de pagina*/
+footer{
+  width: 100%;
+  height: auto;
+
+  margin: 0%;
+  padding: 0%;
+
+  display: flex;
+  flex-wrap: nowrap;
+  
+  background-color: #1f1f1f62;
+  color: #a1a1a1;
+}
+footer div{
+  width: 33%;
+  height: auto;
+
+  font-size: large;
+  text-align: center;
+  align-content: center;
+}
+footer .div1{
+  text-align: left;
+  padding-left: 2%;
+}
+footer .div3{
+  text-align: right;
+  padding-right: 2%;
+}
