@@ -9,7 +9,8 @@
       "tamano": "20 pulgadas",
       "precio": 300,
       "descripcion": "La TurboBMX Pro es una bicicleta BMX resistente y ágil, perfecta para realizar trucos y acrobacias en el parque o la pista. Su diseño duradero y su manillar giratorio la hacen ideal para los más jóvenes.",
-      "url_img": ""
+      "url_img": "https://ciclometa.com/Items_high/193169-1.jpg",
+      "added": true
     },
     {
       "id_bicicleta": "RU1234",
@@ -21,7 +22,8 @@
       "tamano": "20 pulgadas",
       "precio": 500,
       "descripcion": "La Freestyle King X es una bicicleta BMX diseñada para el estilo libre y trucos en rampas. Su cuadro reforzado y sus neumáticos de alto agarre la hacen perfecta para riders experimentados que buscan desafiar los límites.",
-      "url_img": ""
+      "url_img": "https://http2.mlstatic.com/D_NQ_NP_901347-MLU73212565343_122023-O.webp",
+      "added": true
     },
     {
       "id_bicicleta": "RU9876",
@@ -33,7 +35,8 @@
       "tamano": "20 pulgadas",
       "precio": 700,
       "descripcion": "La StreetBeast 900 es una bicicleta BMX de alta resistencia diseñada para el estilo street y trucos en entornos urbanos. Su estructura robusta y su sistema de frenado preciso la convierten en una opción popular entre los riders urbanos.",
-      "url_img": ""
+      "url_img": "https://www.plentyofbikes.com/cdn/shop/files/254f0cbb3a9a4e50303cebbee212b4dd_large.jpg?v=1702695240",
+      "added": true
     },
     {
       "id_bicicleta": "RU2345",
@@ -45,7 +48,8 @@
       "tamano": "20 pulgadas",
       "precio": 250,
       "descripcion": "La StuntMaster 300 es una bicicleta BMX resistente y versátil diseñada para realizar trucos y acrobacias en cualquier terreno. Su cuadro de acero reforzado y sus neumáticos de alto agarre la hacen ideal para jóvenes entusiastas del freestyle.",
-      "url_img": ""
+      "url_img": "https://m.media-amazon.com/images/I/8139UYL3z8L.jpg",
+      "added": true
     },
     {
       "id_bicicleta": "RU3456",
@@ -57,7 +61,8 @@
       "tamano": "20 pulgadas",
       "precio": 600,
       "descripcion": "La ProRider X500 es una bicicleta BMX diseñada para riders profesionales que buscan rendimiento y durabilidad. Su cuadro de aleación de aluminio y sus componentes de alta calidad garantizan una experiencia de conducción ágil y precisa.",
-      "url_img": ""
+      "url_img": "https://http2.mlstatic.com/D_NQ_NP_882562-MLM53086229600_122022-O.webp",
+      "added": true
     },
     {
       "id_bicicleta": "RU4567",
@@ -69,6 +74,7 @@
       "tamano": "20 pulgadas",
       "precio": 700,
       "descripcion": "La UrbanBeast 700 es una bicicleta BMX diseñada para el estilo urbano y el freestyle en entornos urbanos. Su geometría ágil y su sistema de frenado eficiente la hacen perfecta para riders que buscan desempeño y estilo en la ciudad.",
-      "url_img": ""
+      "url_img": "https://m.media-amazon.com/images/I/717bVeLYZUL._AC_UF894,1000_QL80_.jpg",
+      "added": true
     }
   ]  

@@ -9,7 +9,8 @@
     "tamano": 26,
     "precio": 1200,
     "descripcion": "Una bicicleta de uso rudo, construido en aleación de aluminio y cadena de máximo agarre.",
-    "url_img": "https://th.bing.com/th/id/OIG1.rT7es7ycrFimFD5LNKel?pid=ImgGn"
+    "url_img": "https://th.bing.com/th/id/OIG1.rT7es7ycrFimFD5LNKel?pid=ImgGn",
+    "added": true
   },
   {
     "id_bicicleta": "MUC5347",
@@ -21,7 +22,8 @@
     "tamano": 27,
     "precio": 2800,
     "descripcion": "Potente motor y batería de larga duración. Asistencia al pedaleo para conquistar cualquier terreno.",
-    "url_img": "https://www.todomountainbike.net/images/articles/2018/haibike-flyon-xduro-alltrail-2019.jpg"
+    "url_img": "https://www.todomountainbike.net/images/articles/2018/haibike-flyon-xduro-alltrail-2019.jpg",
+    "added": true
   },
   {
     "id_bicicleta": "MUB5612",
@@ -33,7 +35,8 @@
     "tamano": 29,
     "precio": 3500,
     "descripcion": "Ligera, rígida y duradera. Control preciso en cada curva y descenso.",
-    "url_img": "https://es.bikeles.com/wp-content/uploads/2022/09/Santa-Cruz-V10.jpg?ezimgfmt=ng:webp/ngcb1"
+    "url_img": "https://es.bikeles.com/wp-content/uploads/2022/09/Santa-Cruz-V10.jpg?ezimgfmt=ng:webp/ngcb1",
+    "added": true
   },
   {
     "id_bicicleta": "MUB5612",
@@ -45,7 +48,8 @@
     "tamano": 27,
     "precio": 1200,
     "descripcion": "Versátil y ágil. Cuadro de aluminio resistente, perfecta para explorar nuevos terrenos.",
-    "url_img": "https://assets.specialized.com/i/specialized/BRD-9074__Lower_2880x1620_Epic_Bike_1?$hybris-pdp-photo-carousel$&fmt=auto"
+    "url_img": "https://assets.specialized.com/i/specialized/BRD-9074__Lower_2880x1620_Epic_Bike_1?$hybris-pdp-photo-carousel$&fmt=auto",
+    "added": true
   },
   {
     "id_bicicleta": "MUB5612",
@@ -57,7 +61,8 @@
     "tamano": 26,
     "precio": 900,
     "descripcion": "Portátil y resistente. Ideal para aventuras urbanas y en la naturaleza.",
-    "url_img": "https://wwwhatsnew.com/wp-content/uploads/2019/08/SEMAdventure.jpg"
+    "url_img": "https://wwwhatsnew.com/wp-content/uploads/2019/08/SEMAdventure.jpg",
+    "added": true
   },
   {
     "id_bicicleta": "MUB5612",
@@ -69,6 +74,7 @@
     "tamano": 26,
     "precio": 3600,
     "descripcion": "Perfecta para iniciarse en el ciclismo de montaña.",
-    "url_img": "https://www.lavozdemichoacan.com.mx/wp-content/uploads/2021/08/bicicleta.jpg"
+    "url_img": "https://www.lavozdemichoacan.com.mx/wp-content/uploads/2021/08/bicicleta.jpg",
+    "added": true
   }
 ]
