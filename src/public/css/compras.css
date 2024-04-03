@@ -94,6 +94,23 @@ body {
   width: 30%;
   height: 7px;
 }
+/*Boton de venta*/
+#button_sell{
+  width: 80px;
+  background-color: greenyellow;
+  box-shadow: 0px 0px 10px 1px;
+  border: 0px;
+}
+#button_sell a{
+  font-style: normal;
+  text-decoration: none;
+  color: #000000;
+}
+#button_sell a::before{
+  font-style: normal;
+  text-decoration: none;
+  color: #000000;
+}
 /**/
 .container {
   width: 98%;
